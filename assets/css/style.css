@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Cabin", sans-serif;
+}
+
+.Ricomida {
+  font-family: "Lobster", cursive;
+  font-size: 37px;
+}
+
+.grande {
+  font-size: 25px;
+}
+
+.subtitulo {
+  font-size: 16px;
+}
+
+.boton {
+  font-size: 13px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.fondo-oscuro {
+  background-color: #373a3c;
+  color: #fff;
+}
+
+#hero {
+  padding-top: 60px;
+}
+
+hr {
+  border-top: 1px solid black;
+  /* height:1px;
+  background:black; */
+}
+
+#carousel-ricomida ol li{
+  background: #000;
+  height: 15px;
+  width:15px;
+  border: 0;
+  margin: 0 ,0;
+  border-radius: 50%;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.suscribete {
+  font-size: 30px;
+}
+
+.obten {
+  font-size: 20px;
+}
+.obten span {
+  font-family: "Lobster", cursive;
+}
+
+.tooltip-inner {
+  min-width: 235px;
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .grande {
+    font-size: 40px;
+  }
+
+  .subtitulo {
+    font-size: 20px;
+  }
+
+  .suscribete{
+    font-size: 35px;
+  }
+
+  .obten{
+    font-size: 25px;
+  }
+
+  .card{
+    height: 100%;
+  }
+
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+
+  .carousel{
+    height:230px;
+  }
+
+  .suscribete{
+    font-size: 40px;
+  }
+
+  .obten{
+    font-size: 30px;
+  }
+
+  #hero {
+    padding-top: 90px;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+ .grande{
+  font-size: 50px;
+ } 
+
+ .titulo > .subtitulo{
+   font-size: 30px;
+ }
+}
